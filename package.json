@@ -1,0 +1,31 @@
+{
+  "name": "astro-ink",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev --experimental-integrations",
+    "build": "astro build --experimental-integrations",
+    "postbuild": "node ./scripts/search/prepare-index.js",
+    "preview": "astro preview --experimental-integrations"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "@types/node": "^18.0.0",
+    "astro": "^1.0.0-beta.53",
+    "globby": "^13.1.2",
+    "gray-matter": "^4.0.3",
+    "lunr": "^2.3.9",
+    "tailwindcss": "^3.1.4",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^0.2.0",
+    "@astrojs/sitemap": "^0.2.1",
+    "@astrojs/svelte": "^0.1.5",
+    "@astrojs/tailwind": "^0.2.1",
+    "astro-imagetools": "^0.6.10"
+  }
+}
