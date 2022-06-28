@@ -9,4 +9,4 @@ authorTwitter: papplegate
 date: 2022-06-21T03:43:27Z
 ---
 A test post.
-![A business jet](/public/assets/images/Gulfstream-G400.jpg)
+![A business jet](/public/assets/images/Gulfstream-G400-shrink.jpg)
