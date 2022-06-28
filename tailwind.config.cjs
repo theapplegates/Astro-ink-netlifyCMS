@@ -19,10 +19,10 @@ module.exports = {
             // Shades-of-X
             // keep one group of colors enabled at a time
 
-            primary: colors.purple[700],
-            primaryDark: colors.purple[300],
-            primarySecondary: colors.purple[800],
-            primarySecondaryDark: colors.purple[500],
+            // primary: colors.purple[700],
+            // primaryDark: colors.purple[300],
+            // primarySecondary: colors.purple[800],
+            // primarySecondaryDark: colors.purple[500],
 
             // primary: colors.pink[700],
             // primaryDark: colors.pink[300],
@@ -44,10 +44,10 @@ module.exports = {
             // primarySecondary: colors.lime[800],
             // primarySecondaryDark: colors.lime[500],
 
-            // primary: colors.indigo[700],
-            // primaryDark: colors.indigo[300],
-            // primarySecondary: colors.indigo[800],
-            // primarySecondaryDark: colors.indigo[500],
+             primary: colors.indigo[700],
+             primaryDark: colors.indigo[300],
+             primarySecondary: colors.indigo[800],
+             primarySecondaryDark: colors.indigo[500],
 
             // primary: colors.rose[700],
             // primaryDark: colors.rose[300],
